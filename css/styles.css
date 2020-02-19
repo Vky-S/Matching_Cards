@@ -185,3 +185,80 @@ i {
   background-color: #49beb7;
 }
 }
+@media screen and (min-width: 1200px) {
+  .card-container {
+      display: inline-grid;
+      grid-template-columns: repeat(4, 200px);
+      grid-template-rows: repeat(3, 250px);
+      grid-column-gap: 10px;
+      grid-row-gap: 10px;
+      justify-content: center;
+      margin-left: 26%;
+      margin-top: 4%;
+      padding: 10px;
+  }
+  .card-container-home {
+      display: inline-grid;
+      grid-template-columns: repeat(7, 260px);
+      grid-template-rows: repeat(3, 310px);
+      grid-column-gap: 10px;
+      grid-row-gap: 10px;
+      justify-content: center;
+      margin: 5px;
+  }
+  .card-container-six {
+    display: inline-grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(2, 250px);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    justify-content: center;
+    margin-top: 10%;
+    margin-left: 30%;
+    padding: 10px;
+  }
+  .card-container-eight {
+    display: inline-grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: repeat(2, 250px);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    justify-content: center;
+    margin-top: 10%;
+    margin-left: 26%;
+    padding: 10px;
+  }
+  .card-container-ten {
+    display: inline-grid;
+    grid-template-columns: repeat(5, 200px);
+    grid-template-rows: repeat(2, 250px);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    justify-content: center;
+    margin-top: 10%;
+    margin-left: 20%;
+    padding: 10px;
+  }
+  .card-home {
+    background-color: #49beb7;
+    z-index: -1;
+  }
+  .card-home > i {
+    padding-left: 30%;
+    padding-top: 30%;
+    color: black;
+  }
+  button {
+    border: none;
+    background-color: #f6ef98;
+    width: 380px;
+    height: 70px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    z-index: 2;
+    border-radius: 20px;
+  }
+}
