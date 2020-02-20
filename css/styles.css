@@ -185,7 +185,7 @@ i {
   background-color: #49beb7;
 }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1500px) {
   .card-container {
       display: inline-grid;
       grid-template-columns: repeat(4, 200px);
